@@ -212,7 +212,7 @@ footer ul li a img{
 }
 @media (max-width: 550px) {
     header{
-        padding: 3rem 2rem 0;
+        padding: 3rem 1.2rem 0;
     }
     .header-headings h1{
         font-size: 2rem;        
