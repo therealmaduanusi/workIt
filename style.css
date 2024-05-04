@@ -142,6 +142,24 @@ main .context{
     right: -100px;
 }
 
+/* footer */
+footer{
+    text-align: center;
+}
+footer img{
+    margin-bottom: 1rem;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li {
+    display: inline;
+    padding: 1rem;
+}
+footer ul li a img{
+    fill: red;
+}
+
 @media (min-width: 900px) {
     .section p:first-child{
         margin: 0 auto 1.4rem;
@@ -235,12 +253,13 @@ main .context{
 
 
     main {
-        padding: 10rem 0;
+        padding: 10rem 0 2rem;
     }
     main .context{
         top: -100px;
         right: 0;
         max-width: 100%;
+        padding: 2rem;
     }
     .main-img img {
         width: 100%;
